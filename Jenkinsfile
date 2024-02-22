@@ -6,11 +6,11 @@ timestamps {
             environment {
                 PATH = "/usr/bin/azure-cli:$PATH"
             }
-        // stage('Checkout') {
+        stage('Checkout') {
             
-        //         git branch: 'main', url: 'https://github.com/sk617/azure_infra_tf_01'
+                git branch: 'main', url: 'https://github.com/agore25/tf-demo.git'
             
-        // }
+        }
         stage('Terraform init') {
             
                 sh 'terraform init'
