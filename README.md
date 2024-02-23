@@ -1,3 +1,3 @@
 # tf-demo
 
-test repository
+test terraform repository
